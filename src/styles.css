@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+
+  --font-size: 15px;
+  --font-family: 'Outfit';
+  --font-weights-normal: 400;
+  --font-weight-heavy: 700;
+
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+}
+
+body {
+  background-color: var(--color-light-gray);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
